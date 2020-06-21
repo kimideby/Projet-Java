@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="336.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sn.esmt.projet.java.controler.AuthenCtrl">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <PasswordField fx:id="pwdUser" layoutX="105.0" layoutY="185.0" />
+            <TextField fx:id="loginUser" layoutX="105.0" layoutY="119.0" />
+            <Label layoutX="105.0" layoutY="152.0" prefHeight="33.0" prefWidth="107.0" text="Password :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="101.0" layoutY="85.0" prefHeight="17.0" prefWidth="79.0" text="Login :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Button fx:id="connexion" layoutX="82.0" layoutY="250.0" mnemonicParsing="false" onAction="#authentification" text="Connexion">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="annulerSaisie" layoutX="200.0" layoutY="250.0" mnemonicParsing="false" onAction="#annuler" text="Annuler">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Text fx:id="auth" layoutX="30.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AUTHENTIFICATION" textAlignment="CENTER" wrappingWidth="308.111328125">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Separator layoutX="3.0" layoutY="38.0" prefHeight="24.0" prefWidth="365.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

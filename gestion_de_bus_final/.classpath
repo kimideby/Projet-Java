@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="gestion_de_bus_final/src"/>
+	<classpathentry kind="src" path="icons"/>
+	<classpathentry kind="lib" path="gestion_de_bus_final/lib/clavier-1.1.jar"/>
+	<classpathentry kind="lib" path="gestion_de_bus_final/lib/mysql-connector-java-5.1.40-bin.jar"/>
+	<classpathentry kind="lib" path="gestion_de_bus_final/lib/mysql-connector-java-8.0.13.jar"/>
+	<classpathentry kind="output" path="gestion_de_bus_final/bin"/>
+</classpath>
